@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Love to myself</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="presentation" class="card">
+      <h1>I'm Raphaël the 3rd</h1>
+      <img onclick="myFunction()"
+      class="img-circle" src="./images/life-begins-at40-forty-years-old.gif"
+        alt="Picture of Raphaël Houdry the 3rd">
+      <p>
+        I love to talk abou myself and my passions🤠<br>
+        I'm a very self centered person ! 🐻<br>
+        I'm also a member of the very famous FlashCard team that made Top 3 in the last blind test competition 😎 <br>
+        See you later hater (^.^)
+      </p>
+      <a href="./images/bigyoshi-big-yoshi-dancing.gif" target="_blank" class="btn-yellow">Discover my world</a>
+    </div>
+
+    <div id="myDIV" class="card hidden">
+      <img src="./images/bonne-nuit-les-petits-bonne-nuit-les-petits-nounours.gif" alt="bear">
+    </div>
+
+    <div id="social" class="card">
+      <h2>Follow me plz</h2>
+      <ul class="list-inline">
+        <li>
+          <a href="./images/5yLtC.png" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="./images/5yLtC.png" target="_blank">
+            <i class="fa-brands fa-reddit"></i>
+          </a>
+        </li>
+        <li>
+          <a href="./images/5yLtC.png" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>
